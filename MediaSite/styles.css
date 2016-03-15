@@ -1,0 +1,92 @@
+#logo{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#logo-text {
+    font-size: 40px;
+    margin: 0 20px;  
+    font-family: Verdana;
+    color: #E6F5FF;
+
+}
+#logo-box{
+    width: 15%;
+}
+
+#banner{
+    background-color: #80CCFF;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    
+}
+#profile{
+    width:8%;
+    
+}
+#profile-pic{
+    width: 40%;
+    height: 35%;
+    margin: 0 70px;
+    margin-top: 5px;
+}
+
+#search{
+    width:20%;
+}
+
+#searchbar{
+    width: 100%;
+    height: 60%;
+    font-size: 20px;
+}
+#filler{
+    width: 55%;
+}
+#search-icon{
+    width: 35%;
+    height: 5%;
+    
+}
+#seach-icon-td{
+    width:5%;
+    
+}
+#side-bar-table{
+    height:50%;
+    width: 100%;
+}
+#side-bar-div{
+    height:100%;
+    width: 12%;
+    float:left; 
+    background-color: rgb(179,224,255);
+}
+#side-bar-table td{
+    height: 100px;
+    width: 100%;
+    text-align:center;
+}
+#side-bar-music{
+    font-size: 250%;
+    font-weight: bold;
+   
+    
+}
+
+#side-bar-music>a{
+    color:black;  
+}
+.selected{
+    background-color:black;
+    
+}
+BODY
+{
+    margin: 0;
+    padding: 0;
+    background-color: #E6F5FF;
+}
