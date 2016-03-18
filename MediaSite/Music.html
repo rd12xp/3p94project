@@ -1,5 +1,7 @@
 <html>
   <head><title>Media</title>
+    <script type="text/javascript" src="scrips.js" >
+    </script>
     <link rel="stylesheet" href="styles.css"/>
     </head>
 <body>
@@ -39,17 +41,28 @@
     </div>
     <div id="playlist-sidebar">
         <table id = "sidebar-playlist"style="width:100%;">
-            <tr><td style="height:100px;"></td></tr>
+            <tr><td style="height:100px;"></td><td></td></tr>
             <tr><td>1. Jumpman - Drake & Future</td></tr>
             <tr><td>2. Work - Rihanna & Drake</td></tr>
         </table>
+        <div style="position: fixed; bottom: 20; width: 100%; font-size:500%;">
+            <a href="#" style="text-decoration:none; color:black;">&#128190;<a>
+            <a href="#" style="text-decoration:none; color:black;">&#10060;<a>
+        </div>
     </div>
     <div id="content-music">
-        <table style="width:100%; height:175px">
+        <table style="width:40%; height:200px">
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
             <tr><td></td></tr>
             <tr>
-                <td>
-                    Albums
+                <td id ="music-buttons-music" class ="music-buttons" style="width:100px; background-color: black;">
+                    <a  id ="music-buttons-music-a" class ="music-buttons-a" onclick="button('music-buttons-music-a','music-buttons-music')" href="javascript:void(0);" style="text-decoration:none; color:white;">&#9834; Music</a>
+                </td>
+                <td id ="music-buttons-album" class ="music-buttons" style="width:100px;">
+                    <a  id ="music-buttons-album-a" class ="music-buttons-a" onclick="button('music-buttons-album-a','music-buttons-album')" href="javascript:void(0);" style="text-decoration:none; color:black;">&#128214; Albums</a>
                 </td>
                 <td>
                     <select>
@@ -62,8 +75,8 @@
             </tr>
         </table>
         <table style="width:100%;" id ="music-list">
-            <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr>
-            <tr><td class ="music-song"><b>Work</b></td><td class ="music-singer">Rihanna & Drake</td><td class ="music-album">Anti</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr></tr>
+            <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a onclick="addtoplaylist('Jumpman - Drake & Future')" href="javascript:void(0);" style="text-decoration:none">&#10133;</a></td></tr>
+            <tr><td class ="music-song"><b>Work</b></td><td class ="music-singer">Rihanna & Drake</td><td class ="music-album">Anti</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a onclick="addtoplaylist('Work - Rihanna & Drake')" href="javascript:void(0);" style="text-decoration:none">&#10133;</a></td></tr></tr>
             <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr></tr>
             <tr><td class ="music-song"><b>Work</b></td><td class ="music-singer">Rihanna & Drake</td><td class ="music-album">Anti</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr></tr>
             <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr></tr>
