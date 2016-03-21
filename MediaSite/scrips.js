@@ -38,7 +38,11 @@ function addtoplaylist(song){
     cell1.innerHTML = table.rows.length-1 + '. '+song;
 
 }
-function undoPlaylist(x){
+function undoPlaylist(){
     
-    document.getElementById('sidebar-playlist').deleteRow(x.rowIndex);
+   var table = document.getElementById('sidebar-playlist');
+   var length = table.rows.length;
+   if(length >1){
+    table.deleteRow(length-1);
+   }
 }
