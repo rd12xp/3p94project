@@ -291,7 +291,18 @@
 	color: #E6F5FF;
 	text-decoration: none;
 }	
-    
+
+#newplaylist{
+	text-align:left;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
 BODY
 {
     margin: 0;
