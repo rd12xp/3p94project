@@ -1,7 +1,8 @@
 -get controlbar on Music, maybe other pages working
 	(weird z-index issue I think)
 -Playlists view
--change back button in PlayMovie to a JS back button
+	-Playlists list
+	-Create New Playlist
 -dummy search results page 
 -potentially add readme file
 -Delete this file when we're done
