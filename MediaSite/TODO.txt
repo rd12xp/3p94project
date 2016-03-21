@@ -1,7 +1,6 @@
 -get controlbar on Music, maybe other pages working
 	(weird z-index issue I think)
 -Playlists view
--TV List
 -Movies list
 -change back button in PlayMovie to a JS back button
 -dummy search results page 
