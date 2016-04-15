@@ -9,7 +9,6 @@
 -fix background on last tab on search
 -change + to a little popup menu
 -put playback bar on every page (also fix the z-index thing)
--make the Discover page the homepage
 -top bar indicating 'Song Name / Artist / Album' on Music, TV, &c
 -group search bar into Form so that Enter triggers the search
 
