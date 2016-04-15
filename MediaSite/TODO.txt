@@ -1,2 +1,20 @@
--add undo button to all pages 
--Delete this file when we're done
+-hover colours on links & buttons
+-change search button colours
+-show playback bar for short time before disappearing
+-show what song is playing on control bar
+-feedback when saving playlist
+-add naming field to New Playlist
+-dummy account page
+-add Artists tab to Music
+-fix search bar text
+-fix TV link on TV.html
+-fix background on last tab on search
+-change + to a little popup menu
+-put playback bar on every page (also fix the z-index thing)
+-make the Discover page the homepage
+-top bar indicating 'Song Name / Artist / Album' on Music, TV, &c
+-group search bar into Form so that Enter triggers the search
+
++ Documentation
++ Powerpoint
+ + Practice presentation
