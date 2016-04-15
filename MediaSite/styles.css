@@ -55,8 +55,8 @@
 }
 
 #search-icon{
-    width: 35%;
-    height: 5%;    
+    width: 45%;
+    height: 30%;    
 }
 
 #seach-icon-td{
@@ -83,6 +83,10 @@
     width: 100%;
     text-align:center;
     border-radius : 10px;    
+}
+
+.hover:hover{
+    background-color: #80CCFF;  
 }
 
 #side-bar-music{

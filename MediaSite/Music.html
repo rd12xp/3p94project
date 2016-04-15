@@ -14,7 +14,9 @@
             </td>
             <td id="filler"></td>
             <td id="search">
-                <input id="searchbar" type="text" name="search" placeholder="Search">
+                <form action ="Search.html">
+                    <input id="searchbar" type="text" name="search" placeholder="Search">
+                </form>
         
             </td>
             <td id="seach-icon-td">
@@ -32,10 +34,10 @@
         <table id="side-bar-table">
             <tr><td></td></tr>
             <tr><td id="side-bar-music" class="selected"><a href="Music.html" style="text-decoration:none; color: rgb(179,224,255);">&#9834; Music</a></td></tr>
-            <tr><td id="side-bar-music"><a href="TV.html" style="text-decoration:none">&#x1f4fa; T.V</a></td></tr>
-            <tr><td id="side-bar-music"><a href="Movies.html" style="text-decoration:none">&#127909; Movies</a></td></tr>
-            <tr><td id="side-bar-music"><a href="Playlists.html" style="text-decoration:none">&#128252; Playlists</a></td></tr>
-            <tr><td id="side-bar-music" ><a href="index.html"  style="text-decoration:none">&#9729; Discover</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="TV.html" style="text-decoration:none">&#x1f4fa; T.V</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="Movies.html" style="text-decoration:none">&#127909; Movies</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="Playlists.html" style="text-decoration:none">&#128252; Playlists</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="index.html"  style="text-decoration:none">&#9729; Discover</a></td></tr>
         </table>
         
     </div>
@@ -53,6 +55,9 @@
                 <td id ="music-buttons-album" class ="music-buttons" style="width:100px;">
                     <a  id ="music-buttons-album-a" class ="music-buttons-a" onclick="button('music-buttons-album-a','music-buttons-album')" href="javascript:void(0);" style="text-decoration:none; color:black;">&#128214; Albums</a>
                 </td>
+                <td id ="music-buttons-artist" class ="music-buttons" style="width:100px;">
+                    <a  id ="music-buttons-artist-a" class ="music-buttons-a" onclick="button('music-buttons-artist-a','music-buttons-artist')" href="javascript:void(0);" style="text-decoration:none; color:black;">&#128512; Artists</a>
+                </td>
                 <td>
                     <select>
                         <option value="alpha">A to Z</option>
@@ -64,6 +69,7 @@
             </tr>
         </table>
         <table style="width:100%;" id ="music-list">
+            <tr><th>Song</th><th>Artist</th><th>Album</th><th></th><th></th></tr>
             <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a onclick="addtoplaylist('Jumpman - Drake & Future')" href="javascript:void(0);" style="text-decoration:none">&#10133;</a></td></tr>
             <tr><td class ="music-song"><b>Work</b></td><td class ="music-singer">Rihanna & Drake</td><td class ="music-album">Anti</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a onclick="addtoplaylist('Work - Rihanna & Drake')" href="javascript:void(0);" style="text-decoration:none">&#10133;</a></td></tr></tr>
             <tr><td class ="music-song"><b>Jumpman</b></td><td class ="music-singer">Drake & Future</td><td class ="music-album">What A Time To Be Alive</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><a href="#" style="text-decoration:none">&#10133;</a></td></tr></tr>
