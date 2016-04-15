@@ -6,7 +6,6 @@
 -add naming field to New Playlist
 -dummy account page
 -add Artists tab to Music
--fix search bar text
 -fix background on last tab on search
 -change + to a little popup menu
 -put playback bar on every page (also fix the z-index thing)
