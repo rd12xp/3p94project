@@ -86,7 +86,8 @@
 }
 
 .hover:hover{
-    background-color: #80CCFF;  
+    background-color: #80CCFF;
+	border-radius : 10px;	
 }
 
 #side-bar-music{

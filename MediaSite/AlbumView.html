@@ -1,0 +1,103 @@
+<html>
+  <head><title>Media</title>
+    <script type="text/javascript" src="scrips.js" >
+    </script>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+<body>
+    <!-- The Banner -->
+    <div id ="banner" >
+        <table id ="logo">
+          <tr>
+            <td id="logo-box">
+              <a href="index.html" style="text-decoration:none"><img id="logo-icon" src="images/logo.png"></a>
+            </td>
+            <td id="filler"></td>
+            <td id="search">
+                <form action ="Search.html">
+                    <input id="searchbar" type="text" name="search" placeholder="Search">
+                </form>
+        
+            </td>
+            <td id="seach-icon-td">
+                <a href="Search.html"><img id="search-icon" src="images/search.png"></a>
+            </td>
+            <td id ="profile">
+                <a href="#"><img id="profile-pic" src="images/profile.png"></a>
+            </td>
+          </tr>
+        </table>
+        
+    </div>
+    <!-- End of The Banner -->
+    <div id="side-bar-div">
+        <table id="side-bar-table">
+            <tr><td></td></tr>
+            <tr><td id="side-bar-music" class="selected"><a href="Music.html" style="text-decoration:none; color: rgb(179,224,255);">&#9834; Music</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="TV.html" style="text-decoration:none">&#x1f4fa; T.V</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="Movies.html" style="text-decoration:none">&#127909; Movies</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="Playlists.html" style="text-decoration:none">&#128252; Playlists</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="index.html"  style="text-decoration:none">&#9729; Discover</a></td></tr>
+        </table>
+        
+    </div>
+	
+    <div id="content">
+        <table style="width:40%; height:200px">
+            <tr>
+			<td style="height: 75px;">
+			</td>
+			</tr>
+			<tr>
+			<td rowspan="3">
+                <img src="images/Onlyalad.jpg" style="border-radius: 10px;"/>
+			</td>
+			<td><h1>Only A Lad</h1></td>
+            </tr>
+			<tr style = "width: 100%">
+			<td><h2>Oingo Boingo</h2></td>
+			</tr>
+			<tr>
+			<td class="hover">&#10133; Add To Library</td>
+			</tr>
+        </table>
+        <table style="width:100%;" id ="music-list">
+            <tr><th>Song</th><th>Artist</th><th>Album</th><th></th><th></th></tr>
+            <tr><td class ="music-song"><b>Little Girls</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><div class="dropdown">
+                  <button onclick="myFunction()" class="dropbtn">&#10133;</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Playlist 1</a>
+                    <a href="#">Playlist 2</a>
+                    <a href="#">Playlist 3</a>
+                  </div>
+                </div></td></tr>
+            <tr><td class ="music-song"><b>Perfect System</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>On the Outside</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>Capitalism</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>You Really Got Me</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>Only a Lad</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>What You See</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>Controller</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>Imposter</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            <tr><td class ="music-song"><b>Nasty Habits</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td><a href="#" style="text-decoration:none">&#9658;</a></td><td><button class="dropbtn">&#10133;</button></td></tr></tr>
+            </table>
+    </div>
+    
+	<div class="hoverslide">
+		<div id="controlbar">
+			<div><p>What A Time To Be Alive</p></div>
+			<div> &#x25b6; </div>
+			<div> &#x25a0; </div>
+			<div id="progress"><b>|----------|-|</b></div>
+			<div>&#x23ea;</div>
+			<div>&#x23e9;</div>
+			<div>&#x1f500;</div>
+			<div>&#x21bb;</div>
+		</div>
+	</div>
+	
+	<div id="tab">&#x25bc;</div>
+	
+</body>
+    
+ </html>
