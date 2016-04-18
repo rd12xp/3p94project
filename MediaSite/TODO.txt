@@ -1,10 +1,7 @@
 -hover colours buttons
--show playback bar for short time before disappearing
--show what song is playing on control bar
 -feedback when saving playlist
 -dummy account page
 -change + to a little popup menu
--put playback bar on every page (also fix the z-index thing)
 -group search bar into Form so that Enter triggers the search
 -fix z-index of indicator tab on discover page
 
