@@ -23,8 +23,8 @@
     width: 100%;
     height: 75px;
     position: fixed;
-    z-index:100;
     border-radius : 10px;
+    z-index: 10;
 }
 
 #profile{
@@ -74,7 +74,6 @@
     float:left; 
     background-color: rgb(179,224,255);
     position: fixed;
-    z-index:10;
     border-radius : 10px;
 }
 
@@ -232,26 +231,27 @@
 	position: fixed;
 	overflow: hidden;
 	height: 50px;
-	width: 90%;
-	left: 5%;
-	right: 5%;
+	width: 75%;
+	left: 12.5%;
+	right: 12.5%;
 	bottom: 0px;
 }
 
 #controlbar{
 	background-color: #1A9FFF;
-	width: 90%;
+	width: 75%;
 	height: 50px;
 	position: fixed;
-	z-index: 200;
+	z-index: 0;
 	bottom: -60px;
-	left: 5%;
-	right: 5%;
+    left: 12.5%;
+    right: 12.5%;
 	font-size: 40px;
 	color: #E6F5FF;
 	padding: 5px;
 	border-radius:10px;
 	transition: 0.75s;
+    display: flex;
 }
 
 .hoverslide:hover #controlbar{
@@ -260,9 +260,9 @@
 }
 
 #controlbar div{
-	float: left;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #movie img{
@@ -302,11 +302,28 @@
 	padding-left: 10px;
 }
 
+#tab{
+    width: 15%;
+    position: fixed;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+	bottom: 0;
+    background-color: #1A9FFF;
+    z-index: -10;
+    text-align: center;
+    color: #E6F5FF;
+    font-size: 150%;
+}
+
 a{
 	text-decoration: none;
 	color: #000000;
 }
 
+p{
+	
+	font-size: 18px;
+}
 
 BODY
 {
