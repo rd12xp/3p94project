@@ -1,4 +1,3 @@
--hover colours buttons
 -feedback when saving playlist
 -dummy account page
 
