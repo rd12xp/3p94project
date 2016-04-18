@@ -2,7 +2,6 @@
 -feedback when saving playlist
 -dummy account page
 -change + to a little popup menu
--group search bar into Form so that Enter triggers the search
 -fix z-index of indicator tab on discover page
 
 + Documentation
