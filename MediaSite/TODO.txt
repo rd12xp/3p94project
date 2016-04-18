@@ -1,7 +1,6 @@
 -hover colours buttons
 -feedback when saving playlist
 -dummy account page
--dummy album listing
 
 + Documentation
 + Powerpoint
