@@ -1,8 +1,7 @@
 -hover colours buttons
 -feedback when saving playlist
 -dummy account page
--change + to a little popup menu
--fix z-index of indicator tab on discover page
+-dummy album listing
 
 + Documentation
 + Powerpoint
