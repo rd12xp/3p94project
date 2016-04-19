@@ -78,7 +78,7 @@ function savePlaylist(){
        var saveButton = document.getElementById('saveButton');
    saveButton.style.color = "black";
    }else{
-    saveButton.style.color = "green";
+    alert("Playlist saved!");
     var nameTD = document.getElementById('playlistNoName');
        nameTD.style.color = "black";
    }
