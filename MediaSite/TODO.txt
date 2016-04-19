@@ -1,5 +1,4 @@
 -feedback when saving playlist
--dummy account page
 
 + Documentation
 + Powerpoint
