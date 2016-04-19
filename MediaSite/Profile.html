@@ -1,6 +1,8 @@
 <html>
   <head><title>Media</title>
     <link rel="stylesheet" href="styles.css"/>
+	<script type="text/javascript" src="scrips.js">
+	</script>
     </head>
 <body>
     <!-- The Banner -->
@@ -32,38 +34,27 @@
         <table id="side-bar-table">
             <tr><td></td></tr>
             <tr><td id="side-bar-music" class="hover"><a href="Music.html" style="text-decoration:none">&#9834; Music</a></td></tr>
-            <tr><td id="side-bar-music" class="hover"><a href="TV.html" style="text-decoration:none">&#x1f4fa; T.V</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="TV.html" style="text-decoration:none;">&#x1f4fa; T.V</a></td></tr>
             <tr><td id="side-bar-music" class="hover"><a href="Movies.html" style="text-decoration:none">&#127909; Movies</a></td></tr>
-            <tr><td id="side-bar-music" class="selected"><a href="Playlists.html" style="text-decoration:none; color: #B3E0FF;">&#128252; Playlists</a></td></tr>
+            <tr><td id="side-bar-music" class="hover"><a href="Playlists.html" style="text-decoration:none">&#128252; Playlists</a></td></tr>
             <tr><td id="side-bar-music" class="hover"><a href="index.html"  style="text-decoration:none">&#9729; Discover</a></td></tr>
         </table>
-        
     </div>
+	
     <div id="content">
-        <table style="width:40%; height:80px">
-		<tr></tr>
-        </table>
-		<h1 id="newplaylist">My Favourite Songs</h1>
-		<h2 id="newplaylist"><a href="#">&#9658; Play All</a></h1>
-        <table style="width:100%;" id ="music-list">
-            <tr><td class ="music-song"><b>Capitalism</b></td><td class ="music-singer">Oingo Boingo</td><td class ="music-album">Only A Lad</td><td class="hover" style="text-align:center"><a href="#" style="text-decoration:none">&#9658;</a></td><td></td></tr>
-            <tr><td class ="music-song"><b>Work</b></td><td class ="music-singer">Rihanna & Drake</td><td class ="music-album">Anti</td><td class="hover" style="text-align:center"><a href="#" style="text-decoration:none">&#9658;</a></td><td></td></tr></tr>
-		</table>
+        <div style="width: 600px; height:600px; float:left;">
+            <img id="main-profile-pic" src="images/profilepic.png">
+        </div>
+        <div id="profile-name">
+            <h3 style= "font-size:30px;">John Smith</h3>
+            <p>Email: fakeemail123@fake.com</p>
+            <p>Member Since: April 3rd, 2016</p>
+            <button style="background-color:rgb(179,224,255);border-radius : 10px;width:150px;height:30px;font-size:16px;">Manage Payment</button>
+            <button style="background-color:rgb(179,224,255);border-radius : 10px;width:150px;height:30px;font-size:16px;">Edit Profile</button>
+        </div>
     </div>
 	
 		<div class="hoverslide">
-			<div id="controlbar">
-				<div> &#x25b6; </div>
-				<div> &#x25a0; </div>
-				<div id="progress"><b>|----------|----------------------------|</div>
-				<div>&#x23ea;</div>
-				<div>&#x23e9;</div>
-				<div>&#x1f500;</div>
-				<div>&#x21bb;</div>
-			</div>
-		</div>
-		
-			<div class="hoverslide">
 		<div id="controlbar">
 			<div><p>What A Time To Be Alive</p></div>
 			<div> &#x25b6; </div>
@@ -77,6 +68,7 @@
 	</div>
 	
 	<div id="tab">&#x25bc;</div>
+	
 </body>
     
  </html>

@@ -36,17 +36,53 @@ function addtoplaylist(song){
 
     // Add some text to the new cells:
     cell1.innerHTML = table.rows.length-1 + '. '+song;
-
+    var saveButton = document.getElementById('saveButton');
+    saveButton.style.color = "black";
+    var nameTD = document.getElementById('playlistNoName');
+       nameTD.style.color = "black";
 }
 function undoPlaylist(){
     
    var table = document.getElementById('sidebar-playlist');
    var length = table.rows.length;
-   if(length >1){
+   if(length >2){
     table.deleteRow(length-1);
    }
+   var saveButton = document.getElementById('saveButton');
+   saveButton.style.color = "black";
+   var nameTD = document.getElementById('playlistNoName');
+       nameTD.style.color = "black";
 }
-
+function deletePlaylist(){
+    
+   var table = document.getElementById('sidebar-playlist');
+   var length = table.rows.length;
+   if(length >2){
+      for(var x=length-1; x>1; x--){
+            table.deleteRow(x);
+      }
+   }
+    var saveButton = document.getElementById('saveButton');
+   saveButton.style.color = "black";
+   var nameTD = document.getElementById('playlistNoName');
+       nameTD.style.color = "black";
+}
+function savePlaylist(){
+    
+   var saveButton = document.getElementById('saveButton');
+   var nameField = document.getElementById('playlistName');
+   
+   if(nameField.value ==''){
+       var nameTD = document.getElementById('playlistNoName');
+       nameTD.style.color = "red";
+       var saveButton = document.getElementById('saveButton');
+   saveButton.style.color = "black";
+   }else{
+    saveButton.style.color = "green";
+    var nameTD = document.getElementById('playlistNoName');
+       nameTD.style.color = "black";
+   }
+}
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {

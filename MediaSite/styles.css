@@ -373,3 +373,14 @@ BODY
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+#main-profile-pic{
+    width:300px;
+    height:350px;
+    padding:250px;
+    padding-top:150px;
+}
+#profile-name{
+    float:center;
+    padding:130px;
+}
